@@ -19,5 +19,11 @@ remove the minimum (7 kyu)
 module - remove_the_minimum.py
 test - test_remove_the_minimum.py
 url - https://www.codewars.com/kata/remove-the-minimum/python
-score = 12
+
+replace with alphabet position (6 kyu)
+module - replace_with_alphabet_position.py
+test - test_replace_with_alphabet_position.py
+url -
+
+score = 16
 
