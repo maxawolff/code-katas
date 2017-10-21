@@ -4,8 +4,8 @@ cmdargs: ['/home/max/codefellows/401/individual_homework/code-katas/src/.tox/py3
 
 Collecting pytest
   Using cached pytest-3.2.3-py2.py3-none-any.whl
-Requirement already satisfied: setuptools in ./.tox/py36/lib/python3.6/site-packages (from pytest)
 Collecting py>=1.4.33 (from pytest)
   Using cached py-1.4.34-py2.py3-none-any.whl
+Requirement already satisfied: setuptools in ./.tox/py36/lib/python3.6/site-packages (from pytest)
 Installing collected packages: py, pytest
 Successfully installed py-1.4.34 pytest-3.2.3

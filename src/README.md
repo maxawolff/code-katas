@@ -15,5 +15,9 @@ module - your_order_please.py
 test - test_your_order_please.py
 url - https://www.codewars.com/kata/your-order-please/python
 
-score = 10
+remove the minimum (7 kyu)
+module - remove_the_minimum.py
+test - test_remove_the_minimum.py
+url - https://www.codewars.com/kata/remove-the-minimum/python
+score = 12
 

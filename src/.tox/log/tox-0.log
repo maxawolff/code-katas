@@ -1,6 +1,6 @@
 actionid: tox
 msg: packaging
-cmdargs: ['/home/max/codefellows/401/individual_homework/code-katas/ENV/bin/python3.6', local('/home/max/codefellows/401/individual_homework/code-katas/src/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/home/max/codefellows/401/individual_homework/code-katas/src/.tox/dist')]
+cmdargs: ['/usr/bin/python3.6', local('/home/max/codefellows/401/individual_homework/code-katas/src/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/home/max/codefellows/401/individual_homework/code-katas/src/.tox/dist')]
 
 running sdist
 running egg_info
@@ -9,6 +9,8 @@ writing dependency_links to day_of_code.egg-info/dependency_links.txt
 writing top-level names to day_of_code.egg-info/top_level.txt
 reading manifest file 'day_of_code.egg-info/SOURCES.txt'
 writing manifest file 'day_of_code.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt
+
 running check
 warning: check: missing required meta-data: url
 
