@@ -1,0 +1,39 @@
+actionid: tox
+msg: packaging
+cmdargs: ['/home/max/codefellows/401/individual_homework/code-katas/ENV/bin/python3.6', local('/home/max/codefellows/401/individual_homework/code-katas/src/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/home/max/codefellows/401/individual_homework/code-katas/src/.tox/dist')]
+
+running sdist
+running egg_info
+creating day_of_code.egg-info
+writing day_of_code.egg-info/PKG-INFO
+writing dependency_links to day_of_code.egg-info/dependency_links.txt
+writing top-level names to day_of_code.egg-info/top_level.txt
+writing manifest file 'day_of_code.egg-info/SOURCES.txt'
+reading manifest file 'day_of_code.egg-info/SOURCES.txt'
+writing manifest file 'day_of_code.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+warning: check: missing required meta-data: url
+
+creating day_of_code-0.1
+creating day_of_code-0.1/day_of_code.egg-info
+copying files to day_of_code-0.1...
+copying setup.py -> day_of_code-0.1
+copying sum_of_numbers.py -> day_of_code-0.1
+copying day_of_code.egg-info/PKG-INFO -> day_of_code-0.1/day_of_code.egg-info
+copying day_of_code.egg-info/SOURCES.txt -> day_of_code-0.1/day_of_code.egg-info
+copying day_of_code.egg-info/dependency_links.txt -> day_of_code-0.1/day_of_code.egg-info
+copying day_of_code.egg-info/top_level.txt -> day_of_code-0.1/day_of_code.egg-info
+Writing day_of_code-0.1/setup.cfg
+creating .tox/dist
+creating '.tox/dist/day_of_code-0.1.zip' and adding 'day_of_code-0.1' to it
+adding 'day_of_code-0.1/setup.cfg'
+adding 'day_of_code-0.1/setup.py'
+adding 'day_of_code-0.1/sum_of_numbers.py'
+adding 'day_of_code-0.1/PKG-INFO'
+adding 'day_of_code-0.1/day_of_code.egg-info/SOURCES.txt'
+adding 'day_of_code-0.1/day_of_code.egg-info/top_level.txt'
+adding 'day_of_code-0.1/day_of_code.egg-info/dependency_links.txt'
+adding 'day_of_code-0.1/day_of_code.egg-info/PKG-INFO'
+removing 'day_of_code-0.1' (and everything under it)
