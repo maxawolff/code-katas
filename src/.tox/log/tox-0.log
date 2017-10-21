@@ -9,14 +9,13 @@ writing dependency_links to day_of_code.egg-info/dependency_links.txt
 writing top-level names to day_of_code.egg-info/top_level.txt
 reading manifest file 'day_of_code.egg-info/SOURCES.txt'
 writing manifest file 'day_of_code.egg-info/SOURCES.txt'
-warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
-
 running check
 warning: check: missing required meta-data: url
 
 creating day_of_code-0.1
 creating day_of_code-0.1/day_of_code.egg-info
 copying files to day_of_code-0.1...
+copying README.md -> day_of_code-0.1
 copying setup.py -> day_of_code-0.1
 copying sum_of_numbers.py -> day_of_code-0.1
 copying day_of_code.egg-info/PKG-INFO -> day_of_code-0.1/day_of_code.egg-info
@@ -27,6 +26,7 @@ Writing day_of_code-0.1/setup.cfg
 creating '.tox/dist/day_of_code-0.1.zip' and adding 'day_of_code-0.1' to it
 adding 'day_of_code-0.1/setup.cfg'
 adding 'day_of_code-0.1/setup.py'
+adding 'day_of_code-0.1/README.md'
 adding 'day_of_code-0.1/sum_of_numbers.py'
 adding 'day_of_code-0.1/PKG-INFO'
 adding 'day_of_code-0.1/day_of_code.egg-info/SOURCES.txt'
