@@ -23,7 +23,12 @@ url - https://www.codewars.com/kata/remove-the-minimum/python
 replace with alphabet position (6 kyu)
 module - replace_with_alphabet_position.py
 test - test_replace_with_alphabet_position.py
-url -
+url -https://www.codewars.com/kata/replace-with-alphabet-position/python
 
-score = 16
+find the pairity outlier (6 kyu)
+module - find_outlier.py
+test - test_find_outlier.py
+url - https://www.codewars.com/kata/find-the-parity-outlier/python
+
+
 

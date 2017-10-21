@@ -1,7 +1,8 @@
 """Replace with alphabet position.
 
 best practice solution
-
+def alphabet_position(text):
+    return ' '.join(str(ord(c) - 96) for c in text.lower() if c.isalpha())
 
 """
 
