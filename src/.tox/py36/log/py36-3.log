@@ -1,7 +1,0 @@
-actionid: py36
-msg: envreport
-cmdargs: ['/home/max/codefellows/401/individual_homework/code-katas/src/.tox/py36/bin/pip', 'freeze']
-
-day-of-code==0.1
-py==1.4.34
-pytest==3.2.3
