@@ -1,0 +1,7 @@
+README.md
+setup.py
+sum_of_numbers.py
+day_of_code.egg-info/PKG-INFO
+day_of_code.egg-info/SOURCES.txt
+day_of_code.egg-info/dependency_links.txt
+day_of_code.egg-info/top_level.txt
