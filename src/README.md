@@ -30,5 +30,8 @@ module - find_outlier.py
 test - test_find_outlier.py
 url - https://www.codewars.com/kata/find-the-parity-outlier/python
 
-
+Sum of the first nth term of Series (7 kyu)
+module - sum_terms.py
+test - test_sum_terms.py
+url - http://www.codewars.com/kata/sum-of-the-first-nth-term-of-series/python
 
