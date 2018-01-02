@@ -4,7 +4,7 @@ import pdb
 
 
 def json_to_dict(filename):
-    """Open a json file and turn it into a dictionary."""
+    """Open a json file and turn it into a list of dictionaries."""
     doc = open(filename)
     jstring = doc.read()
     jdata = json.loads(jstring)
@@ -31,6 +31,6 @@ def billionaires():
     oldest_info = [oldest['name'],
                    oldest['net_worth (USD)'],
                    oldest['source']]
-    bill_info = {'Youngest Billionaire': youngest_info,
-                 'Oldest Billionaire under 80': oldest_info}
+    bill_info = {'youngest': youngest_info,
+                 'oldest': oldest_info}
     return bill_info
