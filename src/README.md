@@ -35,3 +35,9 @@ module - sum_terms.py
 test - test_sum_terms.py
 url - http://www.codewars.com/kata/sum-of-the-first-nth-term-of-series/python
 
+
+Forbes - A function to find info on the oldest billionaire under 80 as well as the youngest
+module - forbes.py
+test - test_forbes.py
+url - https://codefellows.github.io/sea-python-401d5/assignments/kata_forbes_billionaires.html
+
