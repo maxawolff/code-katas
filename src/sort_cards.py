@@ -31,15 +31,17 @@ def compare(num1, num2):
 final_list = []
 
 
-def sort_deck_of_cards(deck):
+def sort_cards(deck):
     """Sort a list using merge sort."""
+    if len(deck) < 2:
+        return deck
     half = int(len(deck) / 2)
     l1 = deck[0:half]
     l2 = deck[half:]
     if len(l1) > 1:
-        l1 = sort_deck_of_cards(l1)
+        l1 = sort_cards(l1)
     if len(l2) > 1:
-        l2 = sort_deck_of_cards(l2)
+        l2 = sort_cards(l2)
     return _sort(l1, l2)
 
 
