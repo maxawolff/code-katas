@@ -1,5 +1,32 @@
+"""."""
+
+
+def watch_pyramid_from_the_side(characters):
+    """."""
+    print(characters)
+    if not characters:
+        return characters
+    num_letters = 1
+    num_spaces = len(characters) - 1
+    pyramid = ''
+    for idx, letter in enumerate(reversed(characters)):
+        pyramid += ' ' * num_spaces
+        pyramid += letter * num_letters
+        pyramid += ' ' * num_spaces
+        if idx < len(characters) - 1:
+            pyramid += '\n'
+            num_spaces -= 1
+            num_letters += 2
+#     print(pyramid)
+    return pyramid
+
+
 def watch_pyramid_from_above(characters):
-    """Pyramid from above."""
+    """."""
+    if not characters:
+        return characters
+    if len(characters) == 1:
+        return characters
     size = len(characters) * 2 - 1
     pyramid = ''
     one_level = []
@@ -26,3 +53,21 @@ def watch_pyramid_from_above(characters):
         if row is not container[-1]:
             pyramid += '\n'
     return pyramid
+
+
+def count_visible_characters_of_the_pyramid(characters):
+    """."""
+    if not characters:
+        return -1
+    return (len(characters) * 2 - 1) ** 2
+
+
+def count_all_characters_of_the_pyramid(characters):
+    """."""
+    if not characters:
+        return -1
+    size = (len(characters) * 2 - 1) + 1
+    num = 0
+    for i in range(1, size, 2):
+        num += i ** 2
+    return num
