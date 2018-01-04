@@ -4,4 +4,5 @@
 def test_merge_sort():
     """Test that merge sort is correctly linked."""
     from sort_cards import sort_deck_of_cards
-    sort_deck_of_cards([1, 2, 3, 4, 5, 1])
+    res = sort_deck_of_cards(['A', '9', '4', 'K'])
+    import pdb; pdb.set_trace()
