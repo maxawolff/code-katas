@@ -4,7 +4,10 @@ from string_pyramid import watch_pyramid_from_above, watch_pyramid_from_the_side
 import pytest
 
 
-above = [(None, None), ('', ''), ('*#', '***\n*#*\n***')]
+above = [(None, None), ('', ''), ('*#', '***\n*#*\n***'),
+         ('abc', 'aaaaa\nabbba\nabcba\nabbba\naaaaa'),
+         ('aaa', 'aaaaa\naaaaa\naaaaa\naaaaa\naaaaa'),
+         ('54321', '555555555\n544444445\n543333345\n543222345\n543212345\n543222345\n543333345\n544444445\n555555555')]
 
 
 @pytest.mark.parametrize('chars, res', above)
